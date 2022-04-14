@@ -34,3 +34,49 @@
     text-transform: uppercase;
     text-shadow: 1px 4px 2px rgba(0, 0, 0, 0.5);
 }
+
+@media screen and (max-width: 600px) {
+    .meme-form {
+        margin-bottom: 2rem;
+    }
+
+    .meme-form input{
+        font-size: 1rem;
+    }
+
+    .gen-btn {
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+    }
+
+    .meme img {
+        max-width: 100%;
+    }
+
+    .meme-toptext {
+        top: -18rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .meme-form {
+        margin-bottom: 2rem;
+    }
+
+    .meme-form input{
+        font-size: 0.9rem;
+    }
+
+    .gen-btn {
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+    }
+
+    .meme img {
+        max-width: 100%;
+    }
+
+    .meme-toptext {
+        top: -15rem;
+    }
+}
