@@ -1,0 +1,36 @@
+.meme-section {
+    text-align: center;
+}
+.meme-form input{
+    border: none;
+    font-size: 2rem;
+}
+
+.gen-btn {
+    background:#f55353;
+    color: white;
+    font-size: 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    padding: 0.5rem 2rem;
+    margin-left: 1rem;
+}
+
+.meme-toptext{
+    position: relative;
+    top: -22rem;
+    font-size: 2rem;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 1px 4px 2px rgba(0, 0, 0, 0.5);
+}
+
+.meme-bottomtext{
+    position: relative;
+    top: -10rem;
+    font-size: 2rem;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 1px 4px 2px rgba(0, 0, 0, 0.5);
+}

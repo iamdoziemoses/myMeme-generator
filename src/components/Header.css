@@ -1,0 +1,11 @@
+.header-container {
+    display: flex;
+    background: linear-gradient(#143f6b, #f55353)
+}
+
+p {
+    margin-left: 10rem;
+    font-size: 4rem;
+    color: white;
+    font-weight: bold;
+}
